@@ -1,0 +1,126 @@
+/*
+
+    CSS = Cascading StyleSheet
+    Estrutura:
+
+        seletor{
+            propriedade: valor; 
+        }
+
+    CSS BEM
+    Bloco / Elemento / Modificador
+
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+}
+
+/*Cabecalho*/
+.cabecalho{
+    flex-basis: 30%;
+}
+
+.cabecalho__logo{
+    margin-bottom: 40px;
+}
+/*.cabecalho__logo img{}*/
+.cabecalho__logo figcaption{
+    display: none;
+}
+
+/*.cabecalho__menuNav{}
+
+.cabecalho__menuLista{}*/
+
+
+
+.cabecalho__menuItem{
+    margin-bottom: 25px;
+}
+.cabecalho__menuItem img{
+    max-width: 26px;
+}
+.cabecalho__menuItem a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+}
+
+
+/*Conteudo*/
+.conteudoPrincipal{
+    flex-basis: 70%;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.conteudoPrincipal__titulo{
+    padding: 10px 30px;
+}
+
+.conteudoPrincipal__formulario{
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+
+.conteudoPrincipal__formulario textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 55px;
+}
+.conteudoPrincipal__formulario button{
+    background-color: #1da1f2;
+    border: none;
+    padding: 8px 20 px;
+    color: #fff;
+    border-radius: 20px;
+
+}
+
+/*.conteudoPrincipal__feed{}*/
+.conteudoPrincipal__listaPosts{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+.conteudoPrincipal__post{
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.post__img{
+    max-width: 50px;
+}
+.post__conteudo{
+    margin-left: 15px;
+}
+.post__conteudo h2{
+    display: inline-block;
+}
+.post__conteudo span{
+    display: inline-block;
+    color: #828282;
+}
+.post__conteudo p{
+    margin-top: 15px;
+    color: #333333;
+}
+
+
+

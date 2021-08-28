@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--HyperText Markup Language-->
+<html lang="pt-br">
+
+    <!--CONFIGURACOES-->
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,500&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title> KenzieBird</title>
+    </head>
+
+    <!--CORPO-->
+    <body>
+        <div class="container">
+            <!--CABEÇALHO-->
+            <header class="cabecalho">
+                <!--IMAGEM LOGO-->
+                <figure class="cabecalho__logo">
+                    <img src="./assets/img/bird 1.svg" alt="Logo KenzieBird">
+                    <figcaption hidden>Logo KenzieBird</figcaption>
+                </figure>
+
+                <!--MENU NAVEGACAO-->
+                <nav class="cabecalho__menuNav">
+                    <!--LISTA LINKS-->
+                    <ul class="cabecalho__menuLista">
+                        <li class="cabecalho__menuItem">
+                            <img src="./assets/img/Home.png" alt="">
+                            <a href="https://www.google.com/">Página Inicial</a>
+                        </li>
+                        <li class="cabecalho__menuItem">
+                            <img src="./assets/img/Hashtag.png" alt="">
+                            <a href="">Explorar</a>
+                        </li>
+                        <li class="cabecalho__menuItem">
+                            <img src="./assets/img/Notification.png" alt="">
+                            <a href="">Notificações</a>
+                        </li>
+                        <li class="cabecalho__menuItem">
+                            <img src="./assets/img/Group.png" alt="">
+                            <a href="">Mensagens</a>
+                        </li>
+                        <li class="cabecalho__menuItem">
+                            <img src="./assets/img/Group (1).png" alt="">
+                            <a href="">Itens Salvos</a>
+                        </li>
+                        <li class="cabecalho__menuItem">
+                            <img src="./assets/img/Group (2).png" alt="">
+                            <a href="">Listas</a>
+                        </li>
+                        <li class="cabecalho__menuItem">
+                            <img src="./assets/img/wayne.jpg" alt="">
+                            <a href="">Perfil</a>
+                        </li>
+                        <li class="cabecalho__menuItem">
+                            <img src="./assets/img/Group (3).png" alt="">
+                            <a href="">Mais</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </header>
+
+            <!--CONTEUDO PRINCIPAL-->
+            <main class="conteudoPrincipal">
+                <h3 class="conteudoPrincipal__titulo">Home</h3>
+
+                <!--POST A SER ESCRITO-->
+                <form action="#" class="conteudoPrincipal__formulario">
+                    <textarea name="textoTweet" placeholder="O que está acontecendo?"></textarea>
+                    <button type="submit">Tweetar</button>
+                </form>
+
+                <!--FEED-->
+                <section class="conteudoPrincipal__feed">
+                    <ul class="conteudoPrincipal__listaPosts">
+                        <li class="conteudoPrincipal__post">
+                            <img class="post__img" src="./assets/img/gordon.jpg" alt="Gordon">
+                            
+                            <div class="post__conteudo">
+                                <h2>Comissario Gordon</h2>
+                                <span>@boomerGordon 1h</span>
+                                <p>N~ao sei o que est´a acontecento</p>
+                            </div>
+                        </li>
+                        <li class="conteudoPrincipal__post">
+                            <img class="post__img" src="./assets/img/joker.jpg" alt="Valete">
+                            
+                            <div class="post__conteudo">
+                                <h2>Valete</h2>
+                                <span>@notJoker 1h</span>
+                                <p>Sabem de que animal veio o vírus, né? :)</p>
+                            </div>
+                        </li>
+                        <li class="conteudoPrincipal__post">
+                            <img class="post__img" src="./assets/img/wayne.jpg" alt="Daniel">
+                            
+                            <div class="post__conteudo">
+                                <h2>Bruce Wayne</h2>
+                                <span>@brucewayne 1h</span>
+                                <p>Não gosto de standup</p>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </section>
+
+            </main>
+        </div>
+
+        <script type="text/javascript" src="./assets/js/script.js"></script>
+    </body>
+</html>
+
+
+
