@@ -1,5 +1,7 @@
 # Maratona de Programação 3: Twitter
 
+![Alt text](https://github.com/DBruceLane/KenzieBird/blob/main/assets/img/kenzieBird.png?raw=true "Optional Title")
+
 Projeto desenvolvido na parte 3 da maratona de programação da Kenzie Academy Brasil.
 
 ## Ferramentas
